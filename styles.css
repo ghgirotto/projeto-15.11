@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111;
+   
+}
+
+    .logo img {
+        height: 70px; 
+        margin-left: 0; 
+        margin-right: auto;
+    }
+
+.site-title {
+    text-align: center; /* Alinha o texto ao centro */
+    flex-grow: 1;
+    color: white; /* Define a cor do texto como branco */
+    padding-right: 20px; /* Adiciona espaço à direita para empurrar o texto */
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Alinha os campos do formulário em coluna */
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444; 
+    border-radius: 5px;
+}
+
+button {
+    background-color: #444; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinha verticalmente no centro */
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se necessário */
+}
+
+.social-media, .payment-methods {
+    margin: 0 10px; /* Margem para os lados */
+}
+
+.social-media h3, .payment-methods h3 {
+    display: none; /* Oculta os títulos para que o rodapé fique mais limpo */
+}
+
+.social-media a, .payment-methods a {
+    margin: 0 5px; /* Espaço entre os ícones */
+    font-size: 20px; /* Tamanho reduzido dos ícones */
+    color: #fff; /* Cor dos ícones */
+}
+
+.payment-methods a {
+    margin-left: 10px; /* Adiciona margem à esquerda dos ícones de pagamento */
+}
+
